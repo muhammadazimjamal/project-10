@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'josefin sans',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("qwe.jpg");
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor: pointer;
+}
+span{
+    color: rgb(255, 217, 2);
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(255, 217, 2);
+    transition: .2s;
+}
+.btn{
+    background-color: rgb(255, 217, 2);
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    text-decoration: none;
+    transition: transform;
+    padding: 10px 25px;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50px);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 55px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:white
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.azim{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid rgb(255, 217, 2);
+    outline: none;
+    border-radius: 30px;
+}
+.akif{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(255, 217, 2) ;
+    box-shadow: 0px 0px 5px #000, 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+main{
+    padding-left: 50%;
+    padding-right: 50%;
+    flex: 30%;
+}
+img{
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.content1{
+    display:flex;
+    justify-content:center;
+    margin-top: -300px;
+    margin-left: 550px;
+}
+p{
+    color: gold;
+    padding-bottom: 40px;
+}
+.second{
+    color: blue;
+}
